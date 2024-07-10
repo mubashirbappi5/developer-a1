@@ -192,7 +192,7 @@ margin-top: 48px;
     border-radius: 16px;
 }
 /* target-container */
-.target-container{
+.target-skill-container{
     width: 1140px;
     height: 460px;
    
@@ -201,7 +201,6 @@ margin-top: 48px;
 }
 .target-title h2{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
@@ -210,13 +209,13 @@ text-align: center;
 }
 .target-title p {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 margin-top: 24px;
+opacity: 0.7;
 }
 .target-card{
     display: flex;
@@ -263,6 +262,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 margin-top: 8px;
+opacity: 0.7;
 }
 .target-card a{
 color: rgb(13, 19, 33);
@@ -274,4 +274,76 @@ text-align: left;
 text-decoration: underline;
 margin-top: 24px;
 
+}
+/* next-skills-container */
+.next-skills-container{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+.next-skills-title h3{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.next-skills-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+    opacity: 0.7;
+
+}
+.skill-items{
+    width: 1140px;
+    height: 219px;
+    border: 2px solid red;
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    padding: 40px;
+
+    
+
+}
+.skill-items h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.skill-items p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.skill-items a{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
