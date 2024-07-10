@@ -84,11 +84,15 @@ body{
     border-radius: 8px;
     padding: 21px 24px 21px 24px;
    background: rgb(13, 19, 33);
-   color: rgb(255, 255, 255);
-  font-size: 20px;
+  margin-top: 32px;
+}
+.btn a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
   font-weight: 600;
   text-align: center;
-  margin-top: 32px;
+  text-decoration: none;
+
 }
 /* resource section */
 .resource-container{
@@ -306,7 +310,6 @@ margin-bottom: 24px;
 .skill-items{
     width: 1140px;
     height: 219px;
-    border: 2px solid red;
     padding: 40px;
     display: flex;
     gap: 30px;
@@ -423,12 +426,13 @@ margin-bottom: 24px;
     letter-spacing: 0%;
     text-align: center;
     border: none;
+    cursor: pointer;
 
 }
-.footer-section{
+/* footer section */
+#footer-section{
     width: 1440px;
     height: 100px;
-    border: 2px solid red;
     margin: 0 auto;
     padding: 32px 150px 32px 150px;
     display: flex;
